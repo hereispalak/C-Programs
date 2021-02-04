@@ -1,0 +1,23 @@
+#include<stdio.h>
+swap(int,int);
+int main()
+{
+    int x,y;
+    x=50;
+    y=40;
+    printf("main function:");
+     printf("\n actual argument is:x=%d y=%d",x,y);
+      printf("\nfunction call by value");
+      swap(x,y);
+       printf("actual argument is x=%d y=%d",x,y);
+       return 0;
+}
+swap(int a, int b)
+{
+    printf("formal argument a=%d b=%d",a,b);
+    a=a+10;
+    b=b+10;
+    printf("\nAfter change:");
+    printf("\n formal argument a=%d b=%d",a,b);
+}
+   
