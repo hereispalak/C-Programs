@@ -1,0 +1,20 @@
+// sum of 1D Array Matrix
+#include<stdio.h>
+
+int main() 
+{
+   int a[10],sum=0,i;
+   printf("Enter element of an Array=>");
+   for( i=0; i<10; i++)
+   {
+       scanf("%d",&a[i]);
+   }
+   printf("\n Enter of the Array are");
+     for( i=0; i<10; i++)
+     {
+       printf("\n %d",a[i]);
+         sum=sum+a[i];
+     }
+     printf("\nsum of Array element array=%d",sum);
+     return 0;
+}
